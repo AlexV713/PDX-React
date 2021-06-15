@@ -21,9 +21,13 @@ header #mobile-nav #front #title {
   padding-left: 1em;
 }
 
-header #mobile-nav #front #title h1,
-header #mobile-nav #front #title h2 {
+header #mobile-nav #front #title h1 {
   font-size: 1.3em;
+  margin-bottom: -1em;
+}
+
+header #mobile-nav #front #title h2 {
+  font-size: 1.2em;
 }
 
 header #mobile-nav #front .menu-bars {
