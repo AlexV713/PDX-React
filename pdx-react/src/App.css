@@ -1,4 +1,71 @@
+/* Mobile Display */
 body {
   margin: 0;
   padding: 0;
 }
+
+header #mobile-nav #front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #mobile-nav #front #title {
+  margin-right: auto;
+  padding-left: 1em;
+}
+
+header #mobile-nav #front #title h1,
+header #mobile-nav #front #title h2 {
+  font-size: 1.3em;
+}
+
+header #mobile-nav #front .menu-bars {
+  color: blue;
+}
+
+header #mobile-nav #front .menu-bars:active {
+  opacity: 0.5;
+}
+
+header #mobile-nav #front .icon {
+  font-size: 2em;
+  margin-left: auto;
+  padding-right: 1em;
+}
+
+header #mobile-nav .nav-menu {
+  display: none;
+  text-align: left;
+}
+
+header #mobile-nav .nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+header #mobile-nav .nav-menu ul a {
+  text-decoration: none;
+  color: blue;
+}
+
+header #mobile-nav .nav-menu ul li {
+  font-size: 1.3em;
+  margin-left: -1em;
+  margin-bottom: 0.5em;
+}
+
+header #mobile-nav .nav-menu.active {
+  display: block;
+}
+
+header #desktop-nav {
+  display: none;
+}
+/*# sourceMappingURL=App.css.map */

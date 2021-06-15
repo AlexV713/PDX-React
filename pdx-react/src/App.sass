@@ -1,0 +1,43 @@
+/* Mobile Display */
+    
+body 
+    margin: 0
+    padding: 0
+
+header 
+    #mobile-nav 
+        #front 
+            display: flex
+            justify-content: flex-end 
+            align-items: center 
+            #title 
+                margin-right: auto
+                padding-left: 1em
+                h1,
+                h2
+                    font-size: 1.3em
+            .menu-bars 
+                color: blue
+            .menu-bars:active 
+                opacity: 0.5
+            .icon 
+                font-size: 2em
+                margin-left: auto
+                padding-right: 1em
+        .nav-menu
+            display: none
+            text-align: left
+            ul 
+                list-style-type: none
+                margin: 0
+                a 
+                    text-decoration: none
+                    color: blue
+                li 
+                    font-size: 1.3em
+                    margin-left: -1em
+                    margin-bottom: 0.5em
+        .nav-menu.active 
+            display: block
+    #desktop-nav 
+        display: none
