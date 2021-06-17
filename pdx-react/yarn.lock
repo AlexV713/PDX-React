@@ -9882,6 +9882,11 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
+slides@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/slides/-/slides-0.0.0.tgz#3fb573be2cdc8938681fc3c6a41278c21221f5c3"
+  integrity sha1-P7VzvizciThoH8PGpBJ4whIh9cM=
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
