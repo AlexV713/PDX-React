@@ -100,10 +100,8 @@ header #desktop-nav {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #223dd6;
   font-size: 2em;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
 }
 
 #home-page #slideshow-container .slider .right-arrow {
@@ -114,10 +112,13 @@ header #desktop-nav {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #223dd6;
   font-size: 2em;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
+}
+
+#home-page #slideshow-container .slider .left-arrow:active,
+#home-page #slideshow-container .slider .right-arrow:active {
+  color: #fefefe;
 }
 
 #home-page #slideshow-container .image {
