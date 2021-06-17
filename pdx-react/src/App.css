@@ -1,7 +1,15 @@
 /* Mobile Display */
-body {
+body,
+html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: linear-gradient(45deg, #223dd6, 50%, #57adf7);
+  color: #fefefe;
+  margin-bottom: 1em;
 }
 
 header #mobile-nav #front {
@@ -22,7 +30,7 @@ header #mobile-nav #front #title {
 }
 
 header #mobile-nav #front #title h1 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-bottom: -1em;
 }
 
@@ -31,7 +39,7 @@ header #mobile-nav #front #title h2 {
 }
 
 header #mobile-nav #front .menu-bars {
-  color: blue;
+  color: #fefefe;
 }
 
 header #mobile-nav #front .menu-bars:active {
@@ -52,11 +60,12 @@ header #mobile-nav .nav-menu {
 header #mobile-nav .nav-menu ul {
   list-style-type: none;
   margin: 0;
+  padding-bottom: 1em;
 }
 
 header #mobile-nav .nav-menu ul a {
   text-decoration: none;
-  color: blue;
+  color: #fefefe;
 }
 
 header #mobile-nav .nav-menu ul li {
@@ -146,5 +155,45 @@ header #desktop-nav {
 #home-page #services-container img {
   width: 15em;
   height: auto;
+}
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(45deg, #223dd6, 50%, #57adf7);
+  color: #fefefe;
+  padding: 0.5em;
+}
+
+footer h2 {
+  font-size: 1.3em;
+  margin-bottom: -1em;
+}
+
+footer h3 {
+  font-size: 1.1em;
+}
+
+footer p,
+footer li {
+  font-size: 1.1em;
+}
+
+footer #footer-links ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer #footer-links ul li {
+  margin-bottom: 1em;
+}
+
+footer #footer-links ul .links {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+footer .copyright {
+  font-style: italic;
+  font-size: 0.7em;
 }
 /*# sourceMappingURL=App.css.map */
