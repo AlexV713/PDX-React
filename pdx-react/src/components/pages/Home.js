@@ -8,7 +8,11 @@ function Home() {
         <div id="home-page">
             <ImageSlider slides={SliderData} />
             <h3>The Ultimate Handyman Experience</h3>
-            <p>PDX Handyman Services is a family-owned company that offers the ultimate handyman experience here in Oregon. For more than 30 years in the field, ethical practices, and hard work have branded our services.</p>
+            <p>Text</p>
+            <h3>Ethical Practices &#38; Hard Work</h3>
+            <p>Text</p>
+            <h3>More than 30 years of experience</h3>
+            <p>Text</p>
             <h3>Services</h3>
             <div id="services-container">
                 <img src="https://cdn.pixabay.com/photo/2017/12/19/12/54/mechanic-3027932_1280.jpg" alt="handyman work" />
