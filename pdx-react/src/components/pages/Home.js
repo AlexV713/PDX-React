@@ -5,7 +5,7 @@ import ImageSlider from './ImageSlider'
 function Home() {
     return (
         <div>
-            <ImageSlider slides={SliderData} />;
+            <ImageSlider slides={SliderData} />
         </div>
     )
 }
