@@ -11,7 +11,7 @@ function Footer() {
         <footer>
             <h2>PDX Handyman Services LLC</h2>
             <h3>Jobs Unlimited: Odd. Even. Any</h3>
-            <p>Home owners across all Oregon have been calling for my services for over 30 years.</p>
+            <p>Home owners across all Oregon have been calling for my services for over 30 years!</p>
             <h2>Quick Links</h2>
             <br/>
             <nav id="footer-links">

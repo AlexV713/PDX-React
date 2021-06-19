@@ -4,7 +4,10 @@ body,
 html 
     margin: 0
     padding: 0
-    overflow-x: hidden
+    overflow-x: hidden 
+    font-family: 'Oswald', sans-serif
+    p 
+        font-family: 'Roboto Condensed', sans-serif
 
 header 
     background-image: linear-gradient(45deg, #223dd6, 50%, #57adf7)
@@ -23,6 +26,9 @@ header
                     margin-bottom: -1em
                 h2 
                     font-size: 1em
+                .title-link 
+                    color: white 
+                    text-decoration: none
             .menu-bars 
                 color: #fefefe
             .menu-bars:active 
@@ -89,13 +95,26 @@ header
             margin-left: auto
             margin-right: auto
             object-fit: contain
-    h3
+    video 
+        display: block 
+        margin-left: auto 
+        margin-right: auto
+        width: 22em
+        height: 17em
+        background-color: #131313
+    h2
         text-align: center
         margin: 0.5em 1em 0.5em
     p 
         text-align: center
         margin: 1em 1em 1em
         line-height: 1.5
+    #grid-container 
+        img 
+            display: block 
+            margin: 0 auto 0
+            width: 15em
+            height: auto
     #services-container 
         display: flex 
         flex-direction: column
@@ -138,3 +157,113 @@ footer
         font-size: 0.7em
     .creator 
         color: white
+
+@media only screen and (min-width: 1025px)  
+    body 
+        margin: 0 
+        padding: 0
+        overflow-x: hidden
+
+    header 
+        #mobile-nav 
+            display: none
+        #desktop-nav 
+            display: flex 
+            justify-content: center
+            align-items: center
+            padding: 0 15em 0
+            #title 
+                margin-right: auto
+                h1 
+                    margin-bottom: -1em
+                    font-size: 1.8em
+                h2 
+                    font-size: 1.5em
+                .title-link 
+                    color: white 
+                    text-decoration: none
+            #desktop-links
+                margin-right: auto
+                a  
+                    text-align: center
+                    color: white 
+                    text-decoration: none
+                    font-size: 1.4em
+                #spacing 
+                    margin-left: 2em
+            .contact-button 
+                margin-left: auto
+                border: solid white 2px
+                border-radius: 15px
+                padding: 0.5em
+                text-decoration: none
+                color: white
+                font-size: 1.2em
+
+    #home-page,
+    #about-page,
+    #contact-page
+        padding: 0.5em 15em 0.5em
+
+    #home-page 
+        h2 
+            font-size: 1.8em
+        #slideshow-container
+            display: block
+            max-width: 65em
+            max-height: 35em
+            .slider
+                .left-arrow,
+                .right-arrow 
+                    font-size: 2.5em
+            .image
+                display: block
+                max-width: 65em
+                max-height: 35em
+        #grid-container 
+            display: grid
+            grid-template-areas: "blockOne blockOneVideo" "blockTwoImage blockTwo" "blockThree blockThreeImage"
+            grid-gap: 1em
+            margin-top: 1em
+            .grid-item1
+                grid-area: blockOne
+                text-align: center
+                h3 
+                    margin-top: 8em
+                    text-decoration: underline
+                    color: #2646d9
+            .grid-item2
+                grid-area: blockTwo
+                text-align: center
+                h3 
+                    margin-top: 8em
+                    text-decoration: underline
+                    color: #2646d9
+            .grid-item3
+                grid-area: blockThree
+                text-align: center
+                h3 
+                    margin-top: 8em
+                    text-decoration: underline
+                    color: #2646d9
+            .grid-item1-video
+                grid-area: blockOneVideo
+                video 
+                    width: 40em
+                    height: 25em
+            .grid-item2-image
+                grid-area: blockTwoImage
+            .grid-item3-image
+                grid-area: blockThreeImage
+            h3 
+                font-size: 1.5em
+            img 
+                display: block
+                margin: 0 auto 0
+                height: 25em
+                width: auto
+        #services-container
+            display: grid
+            grid-template-columns: repeat(3, minmax(1em, 1fr))
+            grid-gap: 1em 
+            place-items: center

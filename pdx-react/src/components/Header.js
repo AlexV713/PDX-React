@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import * as FaIcons from "react-icons/fa"
-import * as AiIcons from "react-icons/ai"
 import { NavbarData } from './NavbarData'
 import { Link } from 'react-router-dom'
 
@@ -15,8 +14,10 @@ function Header() {
             <div id="mobile-nav">
                 <div id="front">
                     <div id="title">
-                        <h1>PDX Handyman Services LLC</h1>
-                        <h2>Jobs Unlimited: Odd. Even. Any</h2>                      
+                        <Link to="/" className="title-link">
+                            <h1>PDX Handyman Services LLC</h1>
+                            <h2>Jobs Unlimited: Odd. Even. Any</h2>
+                        </Link>                      
                     </div> 
                     <Link to='#' className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar} className="icon" />
@@ -39,8 +40,22 @@ function Header() {
                 </div>
 
             <nav id="desktop-nav">
-            <Link to="/" className="links">
-                    Home
+                <div id="title">
+                <Link to="/"  className="title-link">
+                    <h1>PDX Handyman Services LLC</h1>
+                    <h2>Jobs Unlimited: Odd. Even. Any</h2>
+                </Link>   
+                </div>
+                <div id="desktop-links">
+                    <Link to="/" className="links">
+                        Home
+                    </Link>
+                    <Link to="/About" className="links" id="spacing">
+                        About
+                    </Link>
+                </div>
+                <Link to="/Contact" className="contact-button">
+                    Contact
                 </Link>
             </nav>
         </header>
