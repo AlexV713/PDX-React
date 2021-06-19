@@ -400,5 +400,14 @@ footer .creator {
     grid-gap: 1em;
     place-items: center;
   }
+  footer {
+    text-align: center;
+    padding: 1em 15em 2em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(1em, 1fr))[3];
+        grid-template-columns: repeat(3, minmax(1em, 1fr));
+    place-items: center;
+  }
 }
 /*# sourceMappingURL=App.css.map */

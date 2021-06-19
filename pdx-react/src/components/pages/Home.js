@@ -28,7 +28,7 @@ function Home() {
                 <img src="https://cdn.pixabay.com/photo/2017/12/19/12/54/mechanic-3027932_1280.jpg" alt="Change Later" className="grid-item2-image" />
 
                 <div className="grid-item3">
-                    <h3>More than 30 years of experience</h3>
+                    <h3>More Than 30 Years of Experience</h3>
                     <p>Text</p>
                 </div>
 
