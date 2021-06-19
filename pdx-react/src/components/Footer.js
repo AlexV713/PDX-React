@@ -35,9 +35,9 @@ function Footer() {
             </nav>
             <h2>For a free estimate</h2>
             <br/>
-            <p><FaIcons.FaPhone/> (503) 351-0987</p>
-            <p><MdIcons.MdEmail /> pdxhandymanservicesllc.com</p>
-            <p className="copyright">Copyright @ PDX Handyman Services LLC <br/> Website created by Alejandro Valerio</p>
+            <p><FaIcons.FaPhone/> <a href="tel:+5033510987" className="tel">(503) 351-0987</a></p>
+            <p><MdIcons.MdEmail /> <a href="mailto:pdxhandymanservicesllc@gmail.com" className="email">pdxhandymanservicesllc.com</a></p>
+            <p className="copyright">Copyright @ PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
         </footer>
         </>
     )
