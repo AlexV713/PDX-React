@@ -7,6 +7,11 @@ html {
   font-family: 'Oswald', sans-serif;
 }
 
+body h3,
+html h3 {
+  font-size: 1.3em;
+}
+
 body p,
 body a,
 html p,
@@ -40,7 +45,7 @@ header #mobile-nav #front #title {
 
 header #mobile-nav #front #title h1 {
   font-size: 1.2em;
-  margin-bottom: -1em;
+  margin-bottom: -0.8em;
 }
 
 header #mobile-nav #front #title h2 {
@@ -136,6 +141,11 @@ header #desktop-nav {
   font-size: 2em;
 }
 
+#home-page #slideshow-container .slider .left-arrow:hover,
+#home-page #slideshow-container .slider .right-arrow:hover {
+  color: #57adf7;
+}
+
 #home-page #slideshow-container .slider .left-arrow:active,
 #home-page #slideshow-container .slider .right-arrow:active {
   color: #fefefe;
@@ -163,11 +173,10 @@ header #desktop-nav {
 #home-page h3 {
   text-align: center;
   margin: 0.5em 1em 0.5em;
-  font-size: 1.3em;
 }
 
 #home-page p {
-  text-align: center;
+  text-align: left;
   margin: 1em 1em 1em;
   line-height: 1.5;
 }
@@ -198,6 +207,40 @@ header #desktop-nav {
 #home-page #services-container img {
   width: 15em;
   height: auto;
+}
+
+#about-page img {
+  display: block;
+  margin: 0 auto 0;
+  width: 100%;
+  height: auto;
+}
+
+#about-page h3 {
+  text-align: center;
+}
+
+#about-page p {
+  text-align: left;
+  margin: 1em 1em 1em;
+  line-height: 1.5;
+}
+
+#contact-page {
+  text-align: center;
+}
+
+#contact-page img {
+  display: block;
+  margin: 0 auto 0.5em;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+#contact-page .desktop-number {
+  display: none;
 }
 
 footer {
@@ -260,6 +303,9 @@ footer .creator {
     padding: 0;
     overflow-x: hidden;
   }
+  body p {
+    font-size: 1.2em;
+  }
   header #mobile-nav {
     display: none;
   }
@@ -279,7 +325,7 @@ footer .creator {
     margin-right: auto;
   }
   header #desktop-nav #title h1 {
-    margin-bottom: -1em;
+    margin-bottom: -0.8em;
     font-size: 1.8em;
   }
   header #desktop-nav #title h2 {
@@ -346,7 +392,7 @@ footer .creator {
     text-align: center;
   }
   #home-page #grid-container .grid-item1 h3 {
-    margin-top: 8em;
+    margin-top: 2em;
     text-decoration: underline;
     color: #2646d9;
   }
@@ -357,7 +403,7 @@ footer .creator {
     text-align: center;
   }
   #home-page #grid-container .grid-item2 h3 {
-    margin-top: 8em;
+    margin-top: 2em;
     text-decoration: underline;
     color: #2646d9;
   }
@@ -368,7 +414,7 @@ footer .creator {
     text-align: center;
   }
   #home-page #grid-container .grid-item3 h3 {
-    margin-top: 8em;
+    margin-top: 2em;
     text-decoration: underline;
     color: #2646d9;
   }
@@ -408,7 +454,25 @@ footer .creator {
     grid-gap: 1em;
     place-items: center;
   }
-  footer {
+  #home-page #services-container p {
+    text-align: center;
+  }
+  #about-page img {
+    width: 60%;
+  }
+  #about-page h3 {
+    font-size: 1.5em;
+  }
+  #contact-page img {
+    width: 50%;
+  }
+  #contact-page .mobile-number {
+    display: none;
+  }
+  #contact-page .desktop-number {
+    display: inline;
+  }
+  footer #footer-grid {
     padding: 1em 15em 2em;
     display: -ms-grid;
     display: grid;

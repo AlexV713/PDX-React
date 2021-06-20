@@ -6,6 +6,8 @@ html
     padding: 0
     overflow-x: hidden 
     font-family: 'Oswald', sans-serif
+    h3 
+        font-size: 1.3em
     p,
     a 
         font-family: 'Roboto Condensed', sans-serif
@@ -25,7 +27,7 @@ header
                 padding-left: 1em
                 h1
                     font-size: 1.2em
-                    margin-bottom: -1em
+                    margin-bottom: -0.8em
                 h2 
                     font-size: 1em
                 .title-link 
@@ -89,6 +91,9 @@ header
                 padding: 16px 
                 color: #223dd6 
                 font-size: 2em
+            .left-arrow:hover,
+            .right-arrow:hover
+                color: #57adf7
             .left-arrow:active,
             .right-arrow:active
                 color: #fefefe
@@ -109,9 +114,8 @@ header
     h3
         text-align: center
         margin: 0.5em 1em 0.5em
-        font-size: 1.3em
     p 
-        text-align: center
+        text-align: left
         margin: 1em 1em 1em
         line-height: 1.5
     #grid-container 
@@ -128,6 +132,30 @@ header
         img 
             width: 15em
             height: auto
+
+#about-page 
+    img 
+        display: block 
+        margin: 0 auto 0
+        width: 100%
+        height: auto
+    h3 
+        text-align: center 
+    p
+        text-align: left
+        margin: 1em 1em 1em
+        line-height: 1.5
+
+#contact-page 
+    text-align: center
+    img 
+        display: block 
+        margin: 0 auto 0.5em
+        object-fit: contain 
+        width: 100%
+        height: auto
+    .desktop-number 
+        display: none
 
 footer 
     text-align: center    
@@ -168,6 +196,8 @@ footer
         margin: 0 
         padding: 0
         overflow-x: hidden
+        p 
+            font-size: 1.2em
 
     header 
         #mobile-nav 
@@ -180,7 +210,7 @@ footer
             #title 
                 margin-right: auto
                 h1 
-                    margin-bottom: -1em
+                    margin-bottom: -0.8em
                     font-size: 1.8em
                 h2 
                     font-size: 1.5em
@@ -234,21 +264,21 @@ footer
                 grid-area: blockOne
                 text-align: center
                 h3 
-                    margin-top: 8em
+                    margin-top: 2em
                     text-decoration: underline
                     color: #2646d9
             .grid-item2
                 grid-area: blockTwo
                 text-align: center
                 h3 
-                    margin-top: 8em
+                    margin-top: 2em
                     text-decoration: underline
                     color: #2646d9
             .grid-item3
                 grid-area: blockThree
                 text-align: center
                 h3 
-                    margin-top: 8em
+                    margin-top: 2em
                     text-decoration: underline
                     color: #2646d9
             .grid-item1-video
@@ -272,9 +302,26 @@ footer
             grid-template-columns: repeat(3, minmax(1em, 1fr))
             grid-gap: 1em 
             place-items: center
+            p 
+                text-align: center
+
+    #about-page 
+        img 
+            width: 60%
+        h3 
+            font-size: 1.5em
+    
+    #contact-page
+        img 
+            width: 50%
+        .mobile-number 
+            display: none
+        .desktop-number 
+            display: inline
         
     footer 
-        padding: 1em 15em 2em
-        display: grid 
-        grid-template-columns: repeat(3, minmax(1em, 1fr))
-        place-items: center
+        #footer-grid
+            padding: 1em 15em 2em
+            display: grid 
+            grid-template-columns: repeat(3, minmax(1em, 1fr))
+            place-items: center

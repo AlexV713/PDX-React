@@ -48,7 +48,7 @@ function Home() {
                 </div>
                 <div>
                     <img src="https://cdn.pixabay.com/photo/2017/12/19/12/54/mechanic-3027932_1280.jpg" alt="handyman work" />
-                    <p>Lanscapae</p>                    
+                    <p>Landscape</p>                    
                 </div>
                 <div>
                     <img src="https://cdn.pixabay.com/photo/2017/12/19/12/54/mechanic-3027932_1280.jpg" alt="handyman work" />
