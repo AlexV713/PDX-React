@@ -12,7 +12,7 @@ function Footer() {
             <div>
                 <h2>PDX Handyman Services LLC</h2>
                 <h3>Jobs Unlimited: Odd. Even. Any</h3>
-                <p>Home owners across all Oregon have been calling for my services for over 30 years!</p>
+                <p>Home owners across Oregon have been calling for my services for over 30 years!</p>
             </div>
 
             <div>
@@ -37,7 +37,6 @@ function Footer() {
                         </li>
                     </ul>
                 </nav>
-                <p className="copyright">Copyright @ 2021 PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
             </div>
 
             <div>
@@ -46,7 +45,9 @@ function Footer() {
                 <p><FaIcons.FaPhone/> <a href="tel:+5033510987" className="tel">(503) 351-0987</a></p>
                 <p><MdIcons.MdEmail /> <a href="mailto:pdxhandymanservicesllc@gmail.com" className="email">pdxhandymanservicesllc.com</a></p>
             </div>
+            <p className="copyright">Copyright @ 2021 PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
         </footer>
+        
         </>
     )
 }

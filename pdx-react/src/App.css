@@ -8,8 +8,11 @@ html {
 }
 
 body p,
-html p {
+body a,
+html p,
+html a {
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1em;
 }
 
 header {
@@ -93,6 +96,10 @@ header #desktop-nav {
   display: none;
 }
 
+#home-page h2 {
+  text-align: center;
+}
+
 #home-page #slideshow-container {
   display: block;
   max-width: 22em;
@@ -153,9 +160,10 @@ header #desktop-nav {
   background-color: #131313;
 }
 
-#home-page h2 {
+#home-page h3 {
   text-align: center;
   margin: 0.5em 1em 0.5em;
+  font-size: 1.3em;
 }
 
 #home-page p {
@@ -401,7 +409,6 @@ footer .creator {
     place-items: center;
   }
   footer {
-    text-align: center;
     padding: 1em 15em 2em;
     display: -ms-grid;
     display: grid;
