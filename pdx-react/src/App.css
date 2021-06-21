@@ -284,6 +284,10 @@ footer #footer-links ul .links {
   text-decoration: none;
 }
 
+footer #footer-links ul .links:active {
+  color: gray;
+}
+
 footer .tel,
 footer .email {
   color: white;
@@ -336,6 +340,9 @@ footer .creator {
     color: white;
     text-decoration: none;
   }
+  header #desktop-nav #title .title-link:active {
+    color: gray;
+  }
   header #desktop-nav #desktop-links {
     margin-right: auto;
   }
@@ -344,6 +351,9 @@ footer .creator {
     color: white;
     text-decoration: none;
     font-size: 1.4em;
+  }
+  header #desktop-nav #desktop-links a:active {
+    color: gray;
   }
   header #desktop-nav #desktop-links #spacing {
     margin-left: 2em;
@@ -357,13 +367,25 @@ footer .creator {
     color: white;
     font-size: 1.2em;
   }
+  header #desktop-nav .contact-button:active {
+    background-color: #223dd6;
+  }
   #home-page,
   #about-page,
   #contact-page {
-    padding: 0.5em 15em 0.5em;
+    padding: 0 15em 0.5em;
   }
   #home-page h2 {
     font-size: 1.8em;
+  }
+  #home-page h3 {
+    font-size: 1.4em;
+    margin-top: 2em;
+    text-decoration: underline;
+    color: #2646d9;
+  }
+  #home-page p {
+    padding: 0 1.5em 0;
   }
   #home-page #slideshow-container {
     display: block;
@@ -393,30 +415,17 @@ footer .creator {
     grid-area: blockOne;
     text-align: center;
   }
-  #home-page #grid-container .grid-item1 h3 {
-    margin-top: 2em;
-    text-decoration: underline;
-    color: #2646d9;
-  }
   #home-page #grid-container .grid-item2 {
     -ms-grid-row: 2;
     -ms-grid-column: 2;
     grid-area: blockTwo;
     text-align: center;
   }
-  #home-page #grid-container .grid-item2 h3 {
-    margin-top: 2em;
-    text-decoration: underline;
-    color: #2646d9;
-  }
   #home-page #grid-container .grid-item3 {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: blockThree;
     text-align: center;
-  }
-  #home-page #grid-container .grid-item3 h3 {
-    margin-top: 2em;
   }
   #home-page #grid-container .grid-item1-video {
     -ms-grid-row: 1;
@@ -436,9 +445,6 @@ footer .creator {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: blockThreeImage;
-  }
-  #home-page #grid-container h3 {
-    font-size: 1.5em;
   }
   #home-page #grid-container img {
     display: block;
@@ -462,6 +468,9 @@ footer .creator {
   }
   #about-page h3 {
     font-size: 1.5em;
+  }
+  #about-page p {
+    padding: 0 15em 0;
   }
   #contact-page img {
     width: 50%;
