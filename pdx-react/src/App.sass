@@ -123,7 +123,7 @@ header
         img 
             display: block 
             margin: 0 auto 0
-            width: 15em
+            width: 18em
             height: auto
     #services-container 
         display: flex 
@@ -133,6 +133,8 @@ header
         img 
             width: 15em
             height: auto
+        p 
+            text-align: center
 
 #about-page 
     img 
@@ -155,6 +157,7 @@ header
         object-fit: contain 
         width: 100%
         height: auto
+        border-radius: 15px
     .desktop-number 
         display: none
 
@@ -273,9 +276,12 @@ footer
                 object-fit: contain
         #grid-container 
             display: grid
-            grid-template-areas: "blockOne blockOneVideo" "blockTwoImage blockTwo" "blockThree blockThreeImage"
+            grid-template-areas: "blockOne blockOneVideo" "blockTwoVideo blockTwo" "blockThree blockThreeImage"
             grid-gap: 1em
             margin-top: 1em
+            video 
+                width: 40em
+                height: 25em
             .grid-item1
                 grid-area: blockOne
                 text-align: center
@@ -287,11 +293,8 @@ footer
                 text-align: center
             .grid-item1-video
                 grid-area: blockOneVideo
-                video 
-                    width: 40em
-                    height: 25em
-            .grid-item2-image
-                grid-area: blockTwoImage
+            .grid-item2-video
+                grid-area: blockTwoVideo
             .grid-item3-image
                 grid-area: blockThreeImage
             img 
@@ -306,6 +309,9 @@ footer
             place-items: center
             p 
                 text-align: center
+            img 
+                height: 12em
+                width: auto
 
     #about-page 
         img 
@@ -329,3 +335,5 @@ footer
             display: grid 
             grid-template-columns: repeat(3, minmax(1em, 1fr))
             place-items: center
+            .mobile-number 
+                display: none

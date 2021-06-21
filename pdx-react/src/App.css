@@ -185,7 +185,7 @@ header #desktop-nav {
 #home-page #grid-container img {
   display: block;
   margin: 0 auto 0;
-  width: 15em;
+  width: 18em;
   height: auto;
 }
 
@@ -208,6 +208,10 @@ header #desktop-nav {
 #home-page #services-container img {
   width: 15em;
   height: auto;
+}
+
+#home-page #services-container p {
+  text-align: center;
 }
 
 #about-page img {
@@ -238,6 +242,7 @@ header #desktop-nav {
      object-fit: contain;
   width: 100%;
   height: auto;
+  border-radius: 15px;
 }
 
 #contact-page .desktop-number {
@@ -405,9 +410,13 @@ footer .creator {
   #home-page #grid-container {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "blockOne blockOneVideo" "blockTwoImage blockTwo" "blockThree blockThreeImage";
+        grid-template-areas: "blockOne blockOneVideo" "blockTwoVideo blockTwo" "blockThree blockThreeImage";
     grid-gap: 1em;
     margin-top: 1em;
+  }
+  #home-page #grid-container video {
+    width: 40em;
+    height: 25em;
   }
   #home-page #grid-container .grid-item1 {
     -ms-grid-row: 1;
@@ -432,14 +441,10 @@ footer .creator {
     -ms-grid-column: 2;
     grid-area: blockOneVideo;
   }
-  #home-page #grid-container .grid-item1-video video {
-    width: 40em;
-    height: 25em;
-  }
-  #home-page #grid-container .grid-item2-image {
+  #home-page #grid-container .grid-item2-video {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
-    grid-area: blockTwoImage;
+    grid-area: blockTwoVideo;
   }
   #home-page #grid-container .grid-item3-image {
     -ms-grid-row: 3;
@@ -462,6 +467,10 @@ footer .creator {
   }
   #home-page #services-container p {
     text-align: center;
+  }
+  #home-page #services-container img {
+    height: 12em;
+    width: auto;
   }
   #about-page img {
     width: 60%;
@@ -488,6 +497,9 @@ footer .creator {
     -ms-grid-columns: (minmax(1em, 1fr))[3];
         grid-template-columns: repeat(3, minmax(1em, 1fr));
     place-items: center;
+  }
+  footer #footer-grid .mobile-number {
+    display: none;
   }
 }
 /*# sourceMappingURL=App.css.map */
