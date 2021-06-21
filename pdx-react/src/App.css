@@ -105,6 +105,19 @@ header #desktop-nav {
   text-align: center;
 }
 
+#home-page h3 {
+  text-align: center;
+  margin: 0.5em 1em 0.5em;
+  text-decoration: underline;
+  color: #2646d9;
+}
+
+#home-page p {
+  text-align: left;
+  margin: 1em 1em 1em;
+  line-height: 1.5;
+}
+
 #home-page #slideshow-container {
   display: block;
   max-width: 22em;
@@ -153,8 +166,7 @@ header #desktop-nav {
 
 #home-page #slideshow-container .image {
   display: block;
-  max-width: 22em;
-  max-height: 14em;
+  height: 14em;
   margin-left: auto;
   margin-right: auto;
   -o-object-fit: contain;
@@ -168,17 +180,6 @@ header #desktop-nav {
   width: 22em;
   height: 17em;
   background-color: #131313;
-}
-
-#home-page h3 {
-  text-align: center;
-  margin: 0.5em 1em 0.5em;
-}
-
-#home-page p {
-  text-align: left;
-  margin: 1em 1em 1em;
-  line-height: 1.5;
 }
 
 #home-page #grid-container img {
@@ -375,8 +376,9 @@ footer .creator {
   }
   #home-page #slideshow-container .image {
     display: block;
-    max-width: 65em;
-    max-height: 35em;
+    height: 35em;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   #home-page #grid-container {
     display: -ms-grid;
@@ -415,8 +417,6 @@ footer .creator {
   }
   #home-page #grid-container .grid-item3 h3 {
     margin-top: 2em;
-    text-decoration: underline;
-    color: #2646d9;
   }
   #home-page #grid-container .grid-item1-video {
     -ms-grid-row: 1;
