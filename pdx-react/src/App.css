@@ -7,6 +7,17 @@ html {
   font-family: 'Oswald', sans-serif;
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+html h1,
+html h2,
+html h3,
+html h4 {
+  color: #223dd6;
+}
+
 body h3,
 html h3 {
   font-size: 1.3em;
@@ -46,10 +57,12 @@ header #mobile-nav #front #title {
 header #mobile-nav #front #title h1 {
   font-size: 1.2em;
   margin-bottom: -0.8em;
+  color: #fefefe;
 }
 
 header #mobile-nav #front #title h2 {
   font-size: 1em;
+  color: #fefefe;
 }
 
 header #mobile-nav #front #title .title-link {
@@ -103,13 +116,13 @@ header #desktop-nav {
 
 #home-page h2 {
   text-align: center;
+  text-decoration: underline;
 }
 
 #home-page h3 {
   text-align: center;
   margin: 0.5em 1em 0.5em;
   text-decoration: underline;
-  color: #2646d9;
 }
 
 #home-page p {
@@ -223,6 +236,7 @@ header #desktop-nav {
 
 #about-page h3 {
   text-align: center;
+  text-decoration: underline;
 }
 
 #about-page p {
@@ -233,6 +247,10 @@ header #desktop-nav {
 
 #contact-page {
   text-align: center;
+}
+
+#contact-page h2 {
+  text-decoration: underline;
 }
 
 #contact-page img {
@@ -259,10 +277,12 @@ footer {
 footer h2 {
   font-size: 1.3em;
   margin-bottom: -1em;
+  color: #fefefe;
 }
 
 footer h3 {
   font-size: 1.1em;
+  color: #fefefe;
 }
 
 footer p,
@@ -296,6 +316,10 @@ footer #footer-links ul .links:active {
 footer .tel,
 footer .email {
   color: white;
+}
+
+footer .desktop-number {
+  display: none;
 }
 
 footer .copyright {
@@ -337,9 +361,11 @@ footer .creator {
   header #desktop-nav #title h1 {
     margin-bottom: -0.8em;
     font-size: 1.8em;
+    color: #fefefe;
   }
   header #desktop-nav #title h2 {
     font-size: 1.5em;
+    color: #fefefe;
   }
   header #desktop-nav #title .title-link {
     color: white;
@@ -387,7 +413,6 @@ footer .creator {
     font-size: 1.4em;
     margin-top: 2em;
     text-decoration: underline;
-    color: #2646d9;
   }
   #home-page p {
     padding: 0 1.5em 0;
@@ -475,11 +500,17 @@ footer .creator {
   #about-page img {
     width: 60%;
   }
-  #about-page h3 {
-    font-size: 1.5em;
+  #about-page #about-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(1em, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(1em, 1fr));
+    grid-gap: 1em;
+    place-items: center;
+    padding: 0 10em 0;
   }
-  #about-page p {
-    padding: 0 15em 0;
+  #about-page #about-container h3 {
+    font-size: 1.5em;
   }
   #contact-page img {
     width: 50%;
@@ -489,6 +520,10 @@ footer .creator {
   }
   #contact-page .desktop-number {
     display: inline;
+  }
+  footer h2,
+  footer h3 {
+    color: #fefefe;
   }
   footer #footer-grid {
     padding: 1em 15em 2em;
@@ -500,6 +535,9 @@ footer .creator {
   }
   footer #footer-grid .mobile-number {
     display: none;
+  }
+  footer #footer-grid .desktop-number {
+    display: inline;
   }
 }
 /*# sourceMappingURL=App.css.map */

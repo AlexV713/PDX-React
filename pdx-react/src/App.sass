@@ -6,6 +6,11 @@ html
     padding: 0
     overflow-x: hidden 
     font-family: 'Oswald', sans-serif
+    h1,
+    h2,
+    h3,
+    h4
+        color: #223dd6
     h3 
         font-size: 1.3em
     p,
@@ -28,8 +33,10 @@ header
                 h1
                     font-size: 1.2em
                     margin-bottom: -0.8em
+                    color: #fefefe
                 h2 
                     font-size: 1em
+                    color: #fefefe
                 .title-link 
                     color: white 
                     text-decoration: none
@@ -63,11 +70,11 @@ header
 #home-page
     h2 
         text-align: center
+        text-decoration: underline
     h3
         text-align: center
         margin: 0.5em 1em 0.5em
         text-decoration: underline
-        color: #2646d9
     p 
         text-align: left
         margin: 1em 1em 1em
@@ -144,6 +151,7 @@ header
         height: auto
     h3 
         text-align: center 
+        text-decoration: underline
     p
         text-align: left
         margin: 1em 1em 1em
@@ -151,6 +159,8 @@ header
 
 #contact-page 
     text-align: center
+    h2 
+        text-decoration: underline
     img 
         display: block 
         margin: 0 auto 0.5em
@@ -169,8 +179,10 @@ footer
     h2 
         font-size: 1.3em
         margin-bottom: -1em
+        color: #fefefe
     h3 
         font-size: 1.1em
+        color: #fefefe
     p,
     li 
         font-size: 1.1em
@@ -191,6 +203,8 @@ footer
     .tel,
     .email 
         color: white
+    .desktop-number 
+        display: none
     .copyright 
         font-style: italic
         font-size: 0.7em
@@ -218,8 +232,10 @@ footer
                 h1 
                     margin-bottom: -0.8em
                     font-size: 1.8em
+                    color: #fefefe
                 h2 
                     font-size: 1.5em
+                    color: #fefefe
                 .title-link 
                     color: white 
                     text-decoration: none
@@ -259,7 +275,6 @@ footer
             font-size: 1.4em
             margin-top: 2em
             text-decoration: underline
-            color: #2646d9
         p 
             padding: 0 1.5em 0
         #slideshow-container
@@ -316,10 +331,14 @@ footer
     #about-page 
         img 
             width: 60%
-        h3 
-            font-size: 1.5em
-        p 
-            padding: 0 15em 0
+        #about-container 
+            display: grid 
+            grid-template-columns: repeat(2, minmax(1em, 1fr))
+            grid-gap: 1em
+            place-items: center
+            padding: 0 10em 0
+            h3 
+                font-size: 1.5em
     
     #contact-page
         img 
@@ -330,6 +349,9 @@ footer
             display: inline
         
     footer 
+        h2,
+        h3 
+            color: #fefefe
         #footer-grid
             padding: 1em 15em 2em
             display: grid 
@@ -337,3 +359,5 @@ footer
             place-items: center
             .mobile-number 
                 display: none
+            .desktop-number 
+                display: inline

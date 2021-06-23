@@ -44,7 +44,7 @@ function Footer() {
                     <h2>For a free estimate</h2>
                     <br/>
                     <p><FaIcons.FaPhone/> <a href="tel:+5033510987" className="tel mobile-number">(503) 351-0987</a><span className="desktop-number">(503) 351-0987</span></p>
-                    <p><MdIcons.MdEmail /> <a href="mailto:pdxhandymanservicesllc@gmail.com" className="email">pdxhandymanservicesllc.com</a></p>
+                    <p><MdIcons.MdEmail /> <a href="mailto:pdxhandymanservicesllc@gmail.com" className="email">pdxhandymanservicesllc@gmail.com</a></p>
                 </div>
         </div>
             <p className="copyright">Copyright @ 2021 PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
