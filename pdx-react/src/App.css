@@ -234,6 +234,10 @@ header #desktop-nav {
   height: auto;
 }
 
+#about-page h2 {
+  text-align: center;
+}
+
 #about-page h3 {
   text-align: center;
   text-decoration: underline;
@@ -331,6 +335,120 @@ footer .creator {
   color: white;
 }
 
+/* Tablet Display */
+@media only screen and (min-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  header #mobile-nav {
+    display: none;
+  }
+  header #desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #desktop-nav #title {
+    margin-right: auto;
+    padding-left: 1.5em;
+  }
+  header #desktop-nav #title h1 {
+    margin-bottom: -0.8em;
+    font-size: 1.6em;
+    color: #fefefe;
+  }
+  header #desktop-nav #title h2 {
+    font-size: 1.3em;
+    color: #fefefe;
+  }
+  header #desktop-nav #title .title-link {
+    color: white;
+    text-decoration: none;
+  }
+  header #desktop-nav #title .title-link:active {
+    color: gray;
+  }
+  header #desktop-nav #desktop-links {
+    margin-right: auto;
+    margin-left: 1em;
+  }
+  header #desktop-nav #desktop-links a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+  }
+  header #desktop-nav #desktop-links a:active {
+    color: gray;
+  }
+  header #desktop-nav #desktop-links #spacing {
+    margin-left: 2em;
+  }
+  header #desktop-nav .contact-button {
+    margin-left: auto;
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 0.5em;
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+  }
+  header #desktop-nav .contact-button:active {
+    background-color: #223dd6;
+  }
+  #home-page #slideshow-container {
+    max-width: 40em;
+    max-height: 25em;
+  }
+  #home-page #slideshow-container .image {
+    height: 25em;
+  }
+  #home-page #grid-container p {
+    padding: 0 3em 0;
+  }
+  #home-page #grid-container video {
+    width: 35em;
+    height: 25em;
+  }
+  #home-page #grid-container img {
+    width: auto;
+    height: 25em;
+  }
+  #home-page #services-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(1em, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(1em, 1fr));
+    grid-gap: 1em;
+    place-items: center;
+    padding: 0 5em 0;
+  }
+  #about-page p {
+    padding: 0 2em 0;
+  }
+  #contact-page .mobile-number {
+    display: none;
+  }
+  #contact-page .desktop-number {
+    display: inline;
+  }
+  footer .mobile-number {
+    display: none;
+  }
+  footer .desktop-number {
+    display: inline;
+  }
+}
+
+/* Desktop Display */
 @media only screen and (min-width: 1025px) {
   body {
     margin: 0;
