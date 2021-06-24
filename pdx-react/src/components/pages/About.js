@@ -5,6 +5,7 @@ function About() {
         <>
         <div id="about-page">
             <img src="./images/owner.jpg" alt="Jose Valerio handyman for more than 30 years" />
+            <h2>Jose Valerio (Owner) and his wife Ana</h2>
             <div id="about-container">
                 <div>
                     <h3>About me</h3>

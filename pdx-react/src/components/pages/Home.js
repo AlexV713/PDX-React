@@ -10,7 +10,7 @@ function Home() {
             <div id="grid-container">
                 <div className="grid-item1">
                     <h3>The Ultimate Handyman Experience</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Vel turpis nunc eget lorem dolor. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ut ornare lectus sit amet est placerat in. In ornare quam viverra orci sagittis eu volutpat odio. Eu consequat ac felis donec et odio pellentesque diam volutpat. Ultrices tincidunt arcu non sodales neque sodales ut etiam.</p>
+                    <p>PDX Handyman Services LLC offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
                 </div>
 
                 <div className="grid-item1-video">
@@ -22,7 +22,7 @@ function Home() {
 
                 <div className="grid-item2">
                     <h3>Ethical Practices &#38; Hard Work</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Vel turpis nunc eget lorem dolor. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ut ornare lectus sit amet est placerat in. In ornare quam viverra orci sagittis eu volutpat odio. Eu consequat ac felis donec et odio pellentesque diam volutpat. Ultrices tincidunt arcu non sodales neque sodales ut etiam.</p>
+                    <p>PDX Handyman Services LLC works with ethical practices to ensure people's safety and daily living.</p>
                 </div>
 
                 <div className="grid-item2-video">
@@ -34,37 +34,37 @@ function Home() {
 
                 <div className="grid-item3">
                     <h3>More Than 30 Years of Experience</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Vel turpis nunc eget lorem dolor. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ut ornare lectus sit amet est placerat in. In ornare quam viverra orci sagittis eu volutpat odio. Eu consequat ac felis donec et odio pellentesque diam volutpat. Ultrices tincidunt arcu non sodales neque sodales ut etiam.</p>
+                    <p>With more than 30 years of experience, his services have helped many clients renovate their homes and patios across Oregon. PDX Handyman Services LLC prides itself in offering clients the best handyman experience and luxurious homes and patios.</p>
                 </div>
 
-                <img src="./images/28.jpg" alt="Change Later" className="grid-item3-image" />
+                <img src="./images/28.jpg" alt="home renovations" className="grid-item3-image" />
                 
             </div>
 
             <h2>Services</h2>
             <div id="services-container">
                 <div>
-                    <img src="./images/handyman.jpg" alt="handyman work" />
+                    <img src="./images/handyman.jpg" alt="handyman" />
                     <p>Handyman</p>                    
                 </div>
                 <div>
-                    <img src="./images/remodeling.jpg" alt="handyman work" />
+                    <img src="./images/remodeling.jpg" alt="renovation" />
                     <p>Renovation</p>                    
                 </div>
                 <div>
-                    <img src="./images/landscape.jpg" alt="landscaper" />
+                    <img src="./images/landscape.jpg" alt="landscape and landscaper" />
                     <p>Landscape</p>                    
                 </div>
                 <div>
-                    <img src="./images/hardscape.jpg" alt="handyman work" />
+                    <img src="./images/hardscape.jpg" alt="hardscape and hardscaper" />
                     <p>Hardscape</p>                    
                 </div>
                 <div>
-                    <img src="./images/painting.jpg" alt="handyman work" />
+                    <img src="./images/painting.jpg" alt="home painting" />
                     <p>Painting</p>                    
                 </div>
                 <div>
-                    <img src="./images/installation.jpg" alt="handyman work" />
+                    <img src="./images/installation.jpg" alt="window or door installation" />
                     <p>Installation</p>                    
                 </div>
             </div>

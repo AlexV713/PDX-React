@@ -1,5 +1,6 @@
 {
   "name": "pdx-react",
+  "homepage": "https://pdxhandymanservicesllc.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
