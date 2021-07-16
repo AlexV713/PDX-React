@@ -8,10 +8,6 @@ function Home() {
         <div id="home-page">
             <ImageSlider slides={SliderData} />
             <div id="grid-container">
-                <div className="grid-item1">
-                    <h3>The Ultimate Handyman Experience</h3>
-                    <p>PDX Handyman Services LLC offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
-                </div>
 
                 <div className="grid-item1-video">
                     <video controls>
@@ -20,7 +16,12 @@ function Home() {
                     </video>                    
                 </div>
 
-                <div className="grid-item2">
+                <div className="grid-text">
+                    <h3>The Ultimate Handyman Experience</h3>
+                    <p>PDX Handyman Services LLC is a professional handyman who offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
+                </div>
+
+                <div className="grid-text">
                     <h3>Ethical Practices &#38; Hard Work</h3>
                     <p>PDX Handyman Services LLC works with ethical practices to ensure people's safety and daily living.</p>
                 </div>
@@ -32,12 +33,14 @@ function Home() {
                     </video>                    
                 </div>
 
-                <div className="grid-item3">
+                <div class="grid-images">
+                    <img src="./images/28.jpg" alt="home renovations" className="grid-item3-image" />
+                </div>
+
+                <div className="grid-text">
                     <h3>More Than 30 Years of Experience</h3>
                     <p>With more than 30 years of experience, his services have helped many clients renovate their homes and patios across Oregon. PDX Handyman Services LLC prides itself in offering clients the best handyman experience and luxurious homes and patios.</p>
                 </div>
-
-                <img src="./images/28.jpg" alt="home renovations" className="grid-item3-image" />
                 
             </div>
 
