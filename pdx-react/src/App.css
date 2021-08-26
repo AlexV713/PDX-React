@@ -461,7 +461,7 @@ footer .creator {
   #home-page #services-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(1em, 1fr))[2];
+    -ms-grid-columns: repeat(2, minmax(1em, 1fr));
         grid-template-columns: repeat(2, minmax(1em, 1fr));
     grid-gap: 1em;
     justify-items: center;
@@ -672,7 +672,7 @@ footer .creator {
     padding: 1em 15em 2em;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(1em, 1fr))[3];
+    -ms-grid-columns: repeat(3, minmax(1em, 1fr));
         grid-template-columns: repeat(3, minmax(1em, 1fr));
     -webkit-box-pack: center;
         -ms-flex-pack: center;
