@@ -33,6 +33,13 @@ function Home() {
                     <p>PDX Handyman Services LLC works with ethical practices to ensure people's safety and daily living.</p>
                 </div>
 
+                <div className="grid-item1-video-mobile">
+                    <video controls>
+                        <source src="images/video.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag :(
+                    </video>                    
+                </div>
+
                 <div className="grid-text">
                     <h3>More Than 30 Years of Experience</h3>
                     <p>With more than 30 years of experience, his services have helped many clients renovate their homes and patios across Oregon. PDX Handyman Services LLC prides itself in offering clients the best handyman experience and luxurious homes and patios.</p>
