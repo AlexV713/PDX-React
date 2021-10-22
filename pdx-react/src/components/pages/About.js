@@ -9,7 +9,7 @@ function About() {
             <div id="about-container">
                 <div>
                     <h3>About Me</h3>
-                    <p>Hello, I am Jose Valerio (owner) and I've been working as a Handyman for more than 30 years. I started working as a handyman back in my home country Mexico, and started my business after moving to the U.S.</p>                    
+                    <p>Hello, I am Jose Valerio (owner) and I’ve been working as a Handyman for over 30 years. I started working as a handyman back in my home country, Mexico, and started my business after moving to the U.S.</p>                    
                 </div>
 
                 <div>

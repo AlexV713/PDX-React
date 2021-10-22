@@ -63,6 +63,7 @@ header #mobile-nav #front #title h1 {
   font-size: 1.2em;
   margin-bottom: -0.8em;
   color: #fefefe;
+  text-decoration: underline;
 }
 
 header #mobile-nav #front #title h2 {
@@ -307,6 +308,7 @@ footer h2 {
   font-size: 1.3em;
   margin-bottom: -1em;
   color: #fefefe;
+  text-decoration: underline;
 }
 
 footer h3 {
@@ -388,6 +390,7 @@ footer .creator {
     margin-bottom: -0.8em;
     font-size: 1.6em;
     color: #fefefe;
+    text-decoration: underline;
   }
   header #desktop-nav #title h2 {
     font-size: 1.3em;
@@ -518,6 +521,7 @@ footer .creator {
     margin-bottom: -0.8em;
     font-size: 1.8em;
     color: #fefefe;
+    text-decoration: underline;
   }
   header #desktop-nav #title h2 {
     font-size: 1.5em;

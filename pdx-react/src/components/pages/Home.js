@@ -11,7 +11,7 @@ function Home() {
 
                 <div className="grid-text">
                     <h3>The Ultimate Handyman Experience</h3>
-                    <p>PDX Handyman Services LLC is a professional handyman who offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
+                    <p>PDX Handyman Services LLC is a professional handyperson who offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
                 </div>
 
                 <div className="grid-item1-video">
@@ -30,7 +30,7 @@ function Home() {
 
                 <div className="grid-text">
                     <h3>Ethical Practices &#38; Hard Work</h3>
-                    <p>PDX Handyman Services LLC works with ethical practices to ensure people's safety and daily living.</p>
+                    <p>PDX Handyman Services LLC values ethical practices to ensure people’s safety and daily living.</p>
                 </div>
 
                 <div className="grid-item1-video-mobile">
@@ -41,8 +41,8 @@ function Home() {
                 </div>
 
                 <div className="grid-text">
-                    <h3>More Than 30 Years of Experience</h3>
-                    <p>With more than 30 years of experience, his services have helped many clients renovate their homes and patios across Oregon. PDX Handyman Services LLC prides itself in offering clients the best handyman experience and luxurious homes and patios.</p>
+                    <h3>Over 30 Years of Experience</h3>
+                    <p>With over 30 years of experience, his services have helped many clients renovate their homes and patios across Oregon. PDX Handyman Services LLC prides itself in offering clients the best handyman experience and luxurious homes and patios.</p>
                 </div>
 
                 <div class="grid-images">
