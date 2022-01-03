@@ -47,7 +47,7 @@ function Footer() {
                     <p><MdIcons.MdEmail /> <a href="mailto:pdxhandymanservicesllc@gmail.com" className="email">pdxhandymanservicesllc@gmail.com</a></p>
                 </div>
         </div>
-            <p className="copyright">Copyright @ 2021 PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
+            <p className="copyright">Copyright @ 2022 PDX Handyman Services LLC <br/> Website created by <a href="http://alejandrovalerio.com/" target="_blank" rel="noreferrer" className="creator">Alejandro Valerio</a></p>
         </footer>
         
         </>

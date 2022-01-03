@@ -184,6 +184,9 @@ header
         border-radius: 15px
     .desktop-number 
         display: none
+    #email-note 
+        font-style: italic
+        font-size: 0.9rem
 
 footer 
     text-align: center    
@@ -235,49 +238,33 @@ footer
     header 
         #mobile-nav 
             display: none 
-        #desktop-nav 
-            display: flex
-            justify-content: center 
+        #desktop-nav
+            display: flex 
+            justify-content: space-around
             align-items: center
-            #title 
-                margin-right: auto
-                padding-left: 1.5em
-                h1 
-                    margin-bottom: -0.8em
-                    font-size: 1.6em
-                    color: #fefefe
-                    text-decoration: underline
-                h2 
-                    font-size: 1.3em
-                    color: #fefefe
+            #title
                 .title-link 
-                    color: white 
                     text-decoration: none
-                .title-link:active 
-                    color: gray
+                    h1
+                        color: white
+                        text-decoration: underline
+                    h2 
+                        color: white
+                        margin-top: -0.9em
             #desktop-links
-                margin-right: auto
-                margin-left: 1em
-                a  
-                    text-align: center
-                    color: white 
+                margin-right: 2em
+                .links 
+                    color: white
                     text-decoration: none
-                    font-size: 1.4em
-                a:active 
-                    color: gray
-                #spacing 
-                    margin-left: 2em
+                    font-size: 1.5rem
+                    margin-left: 1em
             .contact-button 
-                margin-left: auto
-                border: solid white 2px
-                border-radius: 15px
-                padding: 0.5em
-                margin-right: 1.5em
-                text-decoration: none
                 color: white
-                font-size: 1.2em
-            .contact-button:active 
-                background-color: #223dd6
+                text-decoration: none 
+                border: solid white 2px
+                border-radius: 25px
+                padding: 0.5em
+                font-size: 1.3rem
 
     #home-page 
         #slideshow-container 
@@ -334,47 +321,39 @@ footer
     header 
         #mobile-nav 
             display: none
-        #desktop-nav 
+        #desktop-nav
             display: flex 
-            justify-content: center
+            justify-content: space-around
             align-items: center
-            padding: 0 15em 0
-            #title 
-                margin-right: auto
-                h1 
-                    margin-bottom: -0.8em
-                    font-size: 1.8em
-                    color: #fefefe
-                    text-decoration: underline
-                h2 
-                    font-size: 1.5em
-                    color: #fefefe
+            #title
                 .title-link 
-                    color: white 
                     text-decoration: none
-                .title-link:active 
-                    color: gray
+                    h1
+                        color: white
+                        text-decoration: underline
+                    h2 
+                        color: white
+                        margin-top: -0.9em
+                .title-link:hover 
+                    opacity: 0.5
             #desktop-links
-                margin-right: auto
-                a  
-                    text-align: center
-                    color: white 
+                margin-right: 5em
+                .links 
+                    color: white
                     text-decoration: none
-                    font-size: 1.4em
-                a:active 
-                    color: gray
-                #spacing 
-                    margin-left: 2em
+                    font-size: 1.5rem
+                    margin-left: 1em
+                .links:active 
+                    opacity: 0.5
             .contact-button 
-                margin-left: auto
-                border: solid white 2px
-                border-radius: 15px
-                padding: 0.5em
-                text-decoration: none
                 color: white
-                font-size: 1.2em
+                text-decoration: none 
+                border: solid white 2px
+                border-radius: 25px
+                padding: 0.5em
+                font-size: 1.3rem
             .contact-button:active 
-                background-color: #223dd6
+                background-color: white
 
     #home-page,
     #about-page,
@@ -410,7 +389,7 @@ footer
             margin: 1em auto 1em
             padding: 0 1em 0
             video 
-                width: 40em
+                width: 37em
                 height: 25em
             .grid-item1-video
                 display: block
@@ -419,7 +398,7 @@ footer
             img 
                 display: block
                 margin: 0 auto 0
-                height: 25em
+                height: 23em
                 width: auto
         #services-container
             display: grid
@@ -432,6 +411,7 @@ footer
             img 
                 height: 12em
                 width: auto
+                border: solid #223DD6 1px
 
     #about-page 
         img 
