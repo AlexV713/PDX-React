@@ -552,8 +552,8 @@ footer .creator {
     background-color: white;
   }
   #home-page {
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: auto;
+    margin-right: auto;
   }
   #home-page h2 {
     font-size: 1.8em;
@@ -664,7 +664,7 @@ footer .creator {
     color: #FEFEFE;
   }
   footer #footer-grid {
-    padding: 1em 15em 2em;
+    margin: 1em 5em 2em;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(1em, 1fr))[3];
@@ -677,6 +677,64 @@ footer .creator {
     display: none;
   }
   footer #footer-grid .desktop-number {
+    display: inline;
+  }
+}
+
+/* 1440p Desktop Display */
+@media only screen and (min-width: 1400px) {
+  #home-page #grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1em 20em 1em;
+  }
+  #home-page #grid-container video {
+    width: 37em;
+    height: 25em;
+  }
+  #home-page #grid-container .grid-text {
+    width: 600px;
+    height: 350px;
+  }
+  #home-page #grid-container .grid-item1-video {
+    display: block;
+  }
+  #home-page #grid-container .grid-item1-video-mobile {
+    display: none;
+  }
+  #home-page #grid-container img {
+    display: block;
+    margin: 0 auto 0;
+    height: 23em;
+    width: auto;
+  }
+  #about-page img {
+    width: 50%;
+  }
+  #about-page #about-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 1em;
+    margin: 0 20em 2em;
+  }
+  #contact-page img {
+    width: 30%;
+  }
+  #contact-page .mobile-number {
+    display: none;
+  }
+  #contact-page .desktop-number {
     display: inline;
   }
 }

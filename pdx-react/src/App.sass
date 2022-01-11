@@ -373,8 +373,8 @@ footer
                 background-color: white
 
     #home-page 
-        margin-left: 12em 
-        margin-right: 12em
+        margin-left: auto 
+        margin-right: auto
         h2 
             font-size: 1.8em
         h3 
@@ -456,7 +456,7 @@ footer
         h3 
             color: $white
         #footer-grid
-            padding: 1em 15em 2em
+            margin: 1em 5em 2em
             display: grid 
             grid-template-columns: repeat(3, minmax(1em, 1fr))
             justify-content: center
@@ -464,3 +464,46 @@ footer
                 display: none
             .desktop-number 
                 display: inline
+
+/* 1440p Desktop Display */
+@media only screen and (min-width: 1400px)  
+    #home-page 
+        #grid-container 
+            display: grid
+            grid-template-columns: auto auto
+            justify-items: center
+            align-items: center
+            margin: 1em 20em 1em
+            video 
+                width: 37em
+                height: 25em
+            .grid-text 
+                width: 600px
+                height: 350px
+            .grid-item1-video
+                display: block
+            .grid-item1-video-mobile
+                display: none
+            img 
+                display: block
+                margin: 0 auto 0
+                height: 23em
+                width: auto
+
+    #about-page 
+        img 
+            width: 50%
+        #about-container 
+            display: grid 
+            grid-template-columns: auto auto
+            justify-content: center
+            grid-gap: 1em
+            margin: 0 20em 2em
+
+    #contact-page
+        img 
+            width: 30%
+        .mobile-number 
+            display: none
+        .desktop-number 
+            display: inline

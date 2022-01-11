@@ -11,7 +11,7 @@ function Home() {
 
                 <div className="grid-text">
                     <h3>The Ultimate Handyman Experience</h3>
-                    <p>PDX Handyman Services LLC is a professional handyperson who offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
+                    <p>PDX Handyman Services LLC is a professional renovator who offers a wide range of high-quality services like renovation, landscape, hardscape, painting, and installation. PDX Handyman Services LLC has renovated many homes entirely for many clients and future homeowners.</p>
                 </div>
 
                 <div className="grid-item1-video">
