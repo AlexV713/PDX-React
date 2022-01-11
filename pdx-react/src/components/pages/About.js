@@ -14,7 +14,7 @@ function About() {
 
                 <div>
                     <h3>Work Locations</h3>
-                    <p>I am available in your area! All Forest Grove, Cornelius, Hillsboro, Beaverton, Aloha, Tigard, Newberg, Tillamook, Lincoln City, Oregon City, Portland, McMinnville, Lake Oswego, and Vancouver Washington!</p>
+                    <p>I am available in your area! All Forest Grove, Cornelius, Hillsboro, Beaverton, Aloha, Tigard, Newberg, Tillamook, Oregon City, Portland, McMinnville, Lake Oswego, and Vancouver Washington!</p>
                 </div>
             </div>
         </div>

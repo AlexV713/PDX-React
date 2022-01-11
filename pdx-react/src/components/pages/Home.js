@@ -30,7 +30,7 @@ function Home() {
 
                 <div className="grid-text">
                     <h3>Ethical Practices &#38; Hard Work</h3>
-                    <p>PDX Handyman Services LLC values ethical practices to ensure people’s safety and daily living.</p>
+                    <p>PDX Handyman Services LLC values ethical practices to ensure people’s safety and daily living. I take pride in my work and motivate myself to work hard to meet deadlines and give great services.</p>
                 </div>
 
                 <div className="grid-item1-video-mobile">

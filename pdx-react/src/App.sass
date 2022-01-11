@@ -1,3 +1,6 @@
+$blue: #223dd6
+$white: #FEFEFE
+    
 /* Mobile Display */
     
 body,
@@ -22,8 +25,8 @@ html
         font-size: 1.2em
 
 header 
-    background-color: #223dd6
-    color: #fefefe
+    background-color: $blue
+    color: $white
     margin-bottom: 1em
     #mobile-nav 
         #front 
@@ -36,16 +39,16 @@ header
                 h1
                     font-size: 1.2em
                     margin-bottom: -0.8em
-                    color: #fefefe
+                    color: $white
                     text-decoration: underline
                 h2 
                     font-size: 1em
-                    color: #fefefe
+                    color: $white
                 .title-link 
                     color: white 
                     text-decoration: none
             .menu-bars 
-                color: #fefefe
+                color: $white
             .menu-bars:active 
                 opacity: 0.5
             .icon 
@@ -61,7 +64,7 @@ header
                 padding-bottom: 0.5em
                 a 
                     text-decoration: none
-                    color: #fefefe
+                    color: $white
                 li 
                     font-size: 1.3em
                     margin-left: -1em
@@ -99,7 +102,7 @@ header
                 width: auto 
                 margin-top: -22px
                 padding: 16px
-                color: #223dd6
+                color: $blue
                 font-size: 2em
             .right-arrow 
                 cursor: pointer 
@@ -109,14 +112,14 @@ header
                 width: auto 
                 margin-top: -22px 
                 padding: 16px 
-                color: #223dd6 
+                color: $blue 
                 font-size: 2em
             .left-arrow:hover,
             .right-arrow:hover
                 color: #57adf7
             .left-arrow:active,
             .right-arrow:active
-                color: #fefefe
+                color: $white
         .image 
             display: block
             height: 14em
@@ -134,11 +137,18 @@ header
         display: flex 
         flex-direction: column
         gap: 1em
-        margin: 1em auto 1em
+        margin: 1em 1em 1em
         .grid-item1-video
             display: none
         .grid-item1-video-mobile
             display: block
+        .grid-text
+            color: $white
+            background-color: #223dd6f5
+            border-top-left-radius: 25px
+            border-bottom-right-radius: 25px
+            h3 
+                color: $white
         img 
             display: block 
             margin: 0 auto 0
@@ -152,6 +162,7 @@ header
         img 
             width: 15em
             height: auto
+            border: solid $blue 1px
         p 
             text-align: center
 
@@ -179,7 +190,7 @@ header
         display: block 
         margin: 0 auto 0.5em
         object-fit: contain 
-        width: 100%
+        width: 90%
         height: auto
         border-radius: 15px
     .desktop-number 
@@ -190,17 +201,17 @@ header
 
 footer 
     text-align: center    
-    background-color: #223dd6
-    color: #fefefe
+    background-color: $blue
+    color: $white
     padding: 0.5em
     h2 
         font-size: 1.3em
         margin-bottom: -1em
-        color: #fefefe
+        color: $white
         text-decoration: underline
     h3 
         font-size: 1.1em
-        color: #fefefe
+        color: $white
     p,
     li 
         font-size: 1.1em
@@ -214,7 +225,7 @@ footer
             li 
                 margin-bottom: 1em
             .links 
-                color: #fefefe
+                color: $white
                 text-decoration: none
             .links:active 
                 color: gray
@@ -267,6 +278,8 @@ footer
                 font-size: 1.3rem
 
     #home-page 
+        h3 
+            margin-top: 1em
         #slideshow-container 
             max-width: 40em
             max-height: 25em
@@ -276,6 +289,10 @@ footer
             display: flex 
             flex-direction: column
             gap: 1em
+            .grid-text 
+                margin: 0 auto 0
+                width: 600px
+                height: 270px
             p 
                 padding: 0 3em 0
                 font-size: 1.2em
@@ -337,7 +354,7 @@ footer
                 .title-link:hover 
                     opacity: 0.5
             #desktop-links
-                margin-right: 5em
+                margin-right: 10em
                 .links 
                     color: white
                     text-decoration: none
@@ -355,17 +372,14 @@ footer
             .contact-button:active 
                 background-color: white
 
-    #home-page,
-    #about-page,
-    #contact-page
-        padding: 0 15em 0.5em
-
     #home-page 
+        margin-left: 12em 
+        margin-right: 12em
         h2 
             font-size: 1.8em
         h3 
             font-size: 1.5em
-            margin-top: 5em
+            margin-top: 3em
             text-decoration: underline
         p 
             padding: 0 1.5em 0
@@ -384,13 +398,15 @@ footer
         #grid-container 
             display: grid
             grid-template-columns: auto auto
-            justify-content: center
-            align-content: space-between
-            margin: 1em auto 1em
-            padding: 0 1em 0
+            justify-items: center
+            align-items: center
+            margin: 1em 0em 1em
             video 
                 width: 37em
                 height: 25em
+            .grid-text 
+                width: 600px
+                height: 350px
             .grid-item1-video
                 display: block
             .grid-item1-video-mobile
@@ -411,7 +427,6 @@ footer
             img 
                 height: 12em
                 width: auto
-                border: solid #223DD6 1px
 
     #about-page 
         img 
@@ -430,7 +445,7 @@ footer
     
     #contact-page
         img 
-            width: 50%
+            width: 60%
         .mobile-number 
             display: none
         .desktop-number 
@@ -439,7 +454,7 @@ footer
     footer 
         h2,
         h3 
-            color: #fefefe
+            color: $white
         #footer-grid
             padding: 1em 15em 2em
             display: grid 
