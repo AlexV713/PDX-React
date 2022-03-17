@@ -144,6 +144,7 @@ header #desktop-nav {
   margin-left: auto;
   margin-right: auto;
   background-color: #131313;
+  border-radius: 15px;
 }
 
 #home-page #slideshow-container .slider {
@@ -224,8 +225,9 @@ header #desktop-nav {
 #home-page #grid-container .grid-text {
   color: #FEFEFE;
   background-color: #223dd6f5;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px #000000;
+          box-shadow: 5px 5px 5px #000000;
 }
 
 #home-page #grid-container .grid-text h3 {
@@ -237,6 +239,9 @@ header #desktop-nav {
   margin: 0 auto 0;
   width: 18em;
   height: auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px #000000;
+          box-shadow: 5px 5px 5px #000000;
 }
 
 #home-page #services-container {
@@ -259,10 +264,14 @@ header #desktop-nav {
   width: 15em;
   height: auto;
   border: solid #223dd6 1px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px #000000b4;
+          box-shadow: 5px 5px 5px #000000b4;
 }
 
 #home-page #services-container p {
   text-align: center;
+  font-weight: bold;
 }
 
 #about-page img {
@@ -568,7 +577,7 @@ footer .creator {
   }
   #home-page #slideshow-container {
     display: block;
-    max-width: 65em;
+    max-width: 60em;
     max-height: 35em;
   }
   #home-page #slideshow-container .slider .left-arrow,
@@ -593,11 +602,11 @@ footer .creator {
     margin: 1em 0em 1em;
   }
   #home-page #grid-container video {
-    width: 37em;
+    width: 35em;
     height: 25em;
   }
   #home-page #grid-container .grid-text {
-    width: 600px;
+    width: 550px;
     height: 350px;
   }
   #home-page #grid-container .grid-item1-video {
@@ -651,7 +660,7 @@ footer .creator {
     font-size: 1.5em;
   }
   #contact-page img {
-    width: 60%;
+    width: 50%;
   }
   #contact-page .mobile-number {
     display: none;
@@ -664,7 +673,7 @@ footer .creator {
     color: #FEFEFE;
   }
   footer #footer-grid {
-    margin: 1em 5em 2em;
+    margin: 1em 3em 2em;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(1em, 1fr))[3];
@@ -736,6 +745,9 @@ footer .creator {
   }
   #contact-page .desktop-number {
     display: inline;
+  }
+  footer #footer-grid {
+    margin: 1em 5em 2em;
   }
 }
 /*# sourceMappingURL=App.css.map */

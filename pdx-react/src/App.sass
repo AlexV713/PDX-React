@@ -93,6 +93,7 @@ header
         margin-left: auto 
         margin-right: auto
         background-color: #131313
+        border-radius: 15px
         .slider
             position: relative
             .left-arrow
@@ -145,8 +146,8 @@ header
         .grid-text
             color: $white
             background-color: #223dd6f5
-            border-top-left-radius: 25px
-            border-bottom-right-radius: 25px
+            border-radius: 15px
+            box-shadow: 5px 5px 5px #000000
             h3 
                 color: $white
         img 
@@ -154,6 +155,8 @@ header
             margin: 0 auto 0
             width: 18em
             height: auto
+            border-radius: 15px
+            box-shadow: 5px 5px 5px #000000
     #services-container 
         display: flex 
         flex-direction: column
@@ -163,8 +166,11 @@ header
             width: 15em
             height: auto
             border: solid $blue 1px
+            border-radius: 15px
+            box-shadow: 5px 5px 5px #000000b4
         p 
             text-align: center
+            font-weight: bold
 
 #about-page 
     img 
@@ -385,7 +391,7 @@ footer
             padding: 0 1.5em 0
         #slideshow-container
             display: block
-            max-width: 65em
+            max-width: 60em
             max-height: 35em
             .slider
                 .left-arrow,
@@ -402,10 +408,10 @@ footer
             align-items: center
             margin: 1em 0em 1em
             video 
-                width: 37em
+                width: 35em
                 height: 25em
             .grid-text 
-                width: 600px
+                width: 550px
                 height: 350px
             .grid-item1-video
                 display: block
@@ -445,7 +451,7 @@ footer
     
     #contact-page
         img 
-            width: 60%
+            width: 50%
         .mobile-number 
             display: none
         .desktop-number 
@@ -456,7 +462,7 @@ footer
         h3 
             color: $white
         #footer-grid
-            margin: 1em 5em 2em
+            margin: 1em 3em 2em
             display: grid 
             grid-template-columns: repeat(3, minmax(1em, 1fr))
             justify-content: center
@@ -507,3 +513,7 @@ footer
             display: none
         .desktop-number 
             display: inline
+
+    footer 
+        #footer-grid
+            margin: 1em 5em 2em
