@@ -30,7 +30,7 @@ const ImageSlider = ({ slides }) => {
               key={index}
             >
               {index === current && (
-                <img src={slide.image} alt='PDX Handyman Services LLC offers a wide varitery of services from renovations to landscape' className='image' />
+                <img loading="lazy" src={slide.image} alt='PDX Handyman Services LLC offers a wide varitery of services from renovations to landscape in Oregon' className='image' />
               )}
             </div>
           );

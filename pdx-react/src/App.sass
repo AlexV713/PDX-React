@@ -9,6 +9,7 @@ html
     padding: 0
     overflow-x: hidden 
     font-family: 'Oswald', sans-serif
+    background-color: #f5f5f5
     h1,
     h2,
     h3,
@@ -27,7 +28,6 @@ html
 header 
     background-color: $blue
     color: $white
-    margin-bottom: 1em
     #mobile-nav 
         #front 
             display: flex
@@ -88,12 +88,11 @@ header
         line-height: 1.5
     #slideshow-container 
         display: block
-        max-width: 21em
-        max-height: 14em
+        max-width: auto
+        max-height: 17em
         margin-left: auto 
         margin-right: auto
         background-color: #131313
-        border-radius: 15px
         .slider
             position: relative
             .left-arrow
@@ -104,7 +103,7 @@ header
                 margin-top: -22px
                 padding: 16px
                 color: $blue
-                font-size: 2em
+                font-size: 2.5em
             .right-arrow 
                 cursor: pointer 
                 position: absolute 
@@ -114,7 +113,7 @@ header
                 margin-top: -22px 
                 padding: 16px 
                 color: $blue 
-                font-size: 2em
+                font-size: 2.5em
             .left-arrow:hover,
             .right-arrow:hover
                 color: #57adf7
@@ -123,7 +122,7 @@ header
                 color: $white
         .image 
             display: block
-            height: 14em
+            height: 17em
             margin-left: auto
             margin-right: auto
             object-fit: contain
@@ -131,8 +130,8 @@ header
         display: block 
         margin-left: auto 
         margin-right: auto
-        width: 21em
-        height: 15em
+        width: 100%
+        height: 17em
         background-color: #131313
     #grid-container 
         display: flex 
@@ -153,8 +152,8 @@ header
         img 
             display: block 
             margin: 0 auto 0
-            width: 18em
-            height: auto
+            width: auto
+            height: 17em
             border-radius: 15px
             box-shadow: 5px 5px 5px #000000
     #services-container 
@@ -163,12 +162,13 @@ header
         justify-content: center
         align-items: center
         img 
-            width: 15em
-            height: auto
-            border: solid $blue 1px
+            width: auto
+            height: 15em
+            border: solid $blue 2px
             border-radius: 15px
             box-shadow: 5px 5px 5px #000000b4
         p 
+            color:#223dd6
             text-align: center
             font-weight: bold
 
@@ -194,11 +194,9 @@ header
         text-decoration: underline
     img 
         display: block 
-        margin: 0 auto 0.5em
         object-fit: contain 
-        width: 90%
-        height: auto
-        border-radius: 15px
+        width: 100%
+        height: 17em
     .desktop-number 
         display: none
     #email-note 
@@ -287,10 +285,10 @@ footer
         h3 
             margin-top: 1em
         #slideshow-container 
-            max-width: 40em
-            max-height: 25em
+            max-width: auto
+            max-height: 27em
             .image
-                height: 25em
+                height: 27em
         #grid-container
             display: flex 
             flex-direction: column
@@ -309,18 +307,22 @@ footer
                 width: auto
                 height: 25em
         #services-container            
-            display: grid
-            grid-template-columns: repeat(2, minmax(1em, 1fr))
-            grid-gap: 1em
-            justify-items: center
-            align-content: space-between
-            padding: 0 6em 0
+            display: flex 
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-around 
+            gap: 0 0.5em
     
     #about-page 
         p 
             padding: 0 2em 0
 
     #contact-page 
+        img 
+            margin-left: auto
+            margin-right: auto
+            width: auto
+            height: 22em
         .mobile-number 
             display: none
         .desktop-number 
@@ -391,22 +393,22 @@ footer
             padding: 0 1.5em 0
         #slideshow-container
             display: block
-            max-width: 60em
-            max-height: 35em
+            max-width: auto
+            max-height: 42em
             .slider
                 .left-arrow,
                 .right-arrow 
                     font-size: 2.5em
             .image
                 display: block
-                height: 35em
+                height: 42em
                 object-fit: contain
         #grid-container 
             display: grid
             grid-template-columns: auto auto
             justify-items: center
             align-items: center
-            margin: 1em 0em 1em
+            padding: 0.5em 0em 0.5em
             video 
                 width: 35em
                 height: 25em
@@ -426,12 +428,13 @@ footer
             display: grid
             grid-template-columns: auto auto auto
             justify-items: center
-            align-content: space-between
+            align-content: space-around
             grid-gap: 1em 
+            padding: 0 10em 0
             p 
                 text-align: center
             img 
-                height: 12em
+                height: 15em
                 width: auto
 
     #about-page 
@@ -451,7 +454,8 @@ footer
     
     #contact-page
         img 
-            width: 50%
+            width: auto
+            height: 25em
         .mobile-number 
             display: none
         .desktop-number 
@@ -479,7 +483,7 @@ footer
             grid-template-columns: auto auto
             justify-items: center
             align-items: center
-            margin: 1em 20em 1em
+            padding: 0 10em 0
             video 
                 width: 37em
                 height: 25em
@@ -494,6 +498,18 @@ footer
                 display: block
                 margin: 0 auto 0
                 height: 23em
+                width: auto
+        #services-container
+            display: grid
+            grid-template-columns: auto auto auto
+            justify-items: center
+            align-content: space-around
+            grid-gap: 1em 
+            padding: 0 20em 0
+            p 
+                text-align: center
+            img 
+                height: 15em
                 width: auto
 
     #about-page 

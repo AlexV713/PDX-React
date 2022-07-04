@@ -46,7 +46,7 @@ function Home() {
                 </div>
 
                 <div class="grid-images">
-                    <img src="./images/28.jpg" alt="home renovations" className="grid-item3-image" />
+                    <img loading="lazy" src="./images/28.jpg" alt="home renovation services by PDX Handyman Services LLC in Oregon" className="grid-item3-image" />
                 </div>
                 
             </div>
@@ -54,27 +54,27 @@ function Home() {
             <h2>Services</h2>
             <div id="services-container">
                 <div>
-                    <img src="./images/handyman.jpg" alt="handyman" />
+                    <img loading="lazy" src="./images/handyman.jpg" alt="handyman services by PDX Handyman Services LLC in Oregon" />
                     <p>Handyman</p>                    
                 </div>
                 <div>
-                    <img src="./images/remodeling.jpg" alt="renovation" />
+                    <img loading="lazy" src="./images/remodeling.jpg" alt="renovation services by PDX Handyman Services LLC in Oregon" />
                     <p>Renovation</p>                    
                 </div>
                 <div>
-                    <img src="./images/landscape.jpg" alt="landscape and landscaper" />
+                    <img loading="lazy" src="./images/landscape.jpg" alt="landscape and hardscape services by PDX Handyman Services LLC in Oregon" />
                     <p>Landscape</p>                    
                 </div>
                 <div>
-                    <img src="./images/hardscape.jpg" alt="hardscape and hardscaper" />
+                    <img loading="lazy" src="./images/hardscape.jpg" alt="hardscape and landscape services by PDX Handyman Services LLC in Oregon" />
                     <p>Hardscape</p>                    
                 </div>
                 <div>
-                    <img src="./images/painting.jpg" alt="home painting" />
+                    <img loading="lazy" src="./images/painting.jpg" alt="Interior and exterior painting services by PDX Handyman Services LLC in Oregon" />
                     <p>Painting</p>                    
                 </div>
                 <div>
-                    <img src="./images/installation.jpg" alt="window or door installation" />
+                    <img loading="lazy" src="./images/installation.jpg" alt="window or door installation services by PDX Handyman Services LLC in Oregon" />
                     <p>Installation</p>                    
                 </div>
             </div>
